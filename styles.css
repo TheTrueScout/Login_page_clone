@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  background-color: rgb(33,72,192);
+  justify-content: center;
+  margin: 0;
+  font-family: Montserrat;
+  position: relative;
+}
+
+
+    /* background styles */
+
+  /* Note this svg was made for 1280 x 715 screens. scale accordingly with media queries. */
+.right-bg-image {
+  position: fixed;
+  right: 0;
+  background-size: 100%;
+}
+/* end of svg */
+
+.first-circle {
+  position: fixed;
+  width: 724px;
+  height: 724px;
+  border-radius: 400px;
+  background-color: rgb(38,78,202);
+  top: 358px;
+  right: 918px;
+}
+
+.second-circle {
+  position: fixed;
+  width: 572px;
+  height: 572px;
+  border-radius: 300px;
+  background-color: rgb(36,75,197);
+  right: 994px;
+  top: 435px;
+}
+
+.third-circle {
+  position: fixed;
+  width: 438px;
+  height: 438px;
+  border-radius: 250px;
+  background-color: rgb(39,79,199);
+  right: 1061px;
+  top: 502px;
+}
+
+  /* Login form styles */
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 162px;
+  z-index: 10;
+  flex-direction: column;
+}
+.header-image {
+  margin-bottom: 71px;
+}
+.center-header-image {
+  display: flex;
+  justify-content: center;
+}
+  /* Username styles */
+.username-container {
+  border: 2px solid white;
+  border-radius: 3px;
+  display: flex;
+  width: 300px;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-image-container {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.username-container img {
+  width: 20px;
+}
+
+.username-container input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 85%;
+  display: flex;
+}
+
+.username-container input::placeholder {
+  color: white;
+  font-family: Montserrat;
+}
+
+.username-container input:focus {
+  outline: none;
+}
+
+  /* Password styles */
+.password-container {
+  border: 2px solid white;
+  border-radius: 3px;
+  display: flex;
+  width: 300px;
+  height: 45px;
+  align-items: center;
+  margin-bottom: 43px;
+}
+
+.lock-image-container {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.password-container img {
+  width: 20px;
+}
+
+.password-container input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 85%;
+  display: flex;
+}
+
+.password-container input::placeholder {
+  color: white;
+  font-family: Montserrat;
+}
+
+.password-container input:focus {
+  outline: none;
+}
+
+.login-button {
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 45px;
+  background-color: white;
+  color: rgb(33,72,192);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+
+.right-password {
+  display: flex;
+  justify-content: end;
+}
+
+.forgot-password {
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  margin: 0;
+}

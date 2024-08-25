@@ -184,7 +184,3 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
-
-.forgot-password:active {
-  color: red;
-}
